@@ -1,0 +1,4 @@
+#Tue Feb 19 18:20:40 CST 2019
+base.0=C\:\\Users\\juija\\Desktop\\sporden v0.0.1\\ZenboHelloWorld\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+path.0=classes.dex
+renamed.0=classes.dex

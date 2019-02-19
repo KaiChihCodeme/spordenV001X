@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ZenboHelloWorld</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sport_teach_intro_pic_ac">縮圖</string>
+    <string name="sport_teach_intro_pic_ac_b">黑色遮罩</string>
+    <string name="sport_match_pic_ac_b">黑色遮罩</string>
+    <string name="sport_package">運動套餐</string>
+    <string name="sport_category_search">運動查詢與分類</string>
+</resources>

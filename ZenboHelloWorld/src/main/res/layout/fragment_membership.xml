@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBFF99">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/member_name"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="20dp"
+            android:background="#FFFFFF"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="會員名稱"
+            android:textColor="#BBFF99"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/show_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="100dp"
+            android:layout_marginStart="500dp"
+            android:layout_marginTop="20dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="王大帥"
+            android:textColor="#BBFF99"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/account"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="100dp"
+            android:background="#FFFFFF"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="帳號"
+            android:textColor="#BBFF99"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/show_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="100dp"
+            android:layout_marginStart="500dp"
+            android:layout_marginTop="100dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="sohandsome@gmail.com"
+            android:textColor="#BBFF99"
+            android:textSize="40sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/show_name" />
+
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="180dp"
+            android:background="#FFFFFF"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="密碼"
+            android:textColor="#BBFF99"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/show_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="100dp"
+            android:layout_marginStart="500dp"
+            android:layout_marginTop="180dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="****************"
+            android:textColor="#BBFF99"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="260dp"
+            android:background="#FFFFFF"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="年齡"
+            android:textColor="#BBFF99"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/show_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="100dp"
+            android:layout_marginStart="500dp"
+            android:layout_marginTop="260dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="生日：1998/8/7       20歲"
+            android:textColor="#BBFF99"
+            android:textSize="40sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/show_password" />
+
+        <TextView
+            android:id="@+id/height"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="340dp"
+            android:background="#FFFFFF"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="身高"
+            android:textColor="#BBFF99"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/show_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginStart="500dp"
+            android:layout_marginTop="340dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="183           cm"
+            android:textColor="#BBFF99"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/nextpage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="1000dp"
+            android:layout_marginTop="450dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:paddingEnd="30dp"
+            android:paddingStart="30dp"
+            android:text="下一頁"
+            android:textColor="#BBFF99"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="450dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:paddingEnd="30dp"
+            android:paddingStart="30dp"
+            android:text="編輯"
+            android:textColor="#BBFF99"
+            android:textSize="40sp" />
+
+    </FrameLayout>
+
+</RelativeLayout>
